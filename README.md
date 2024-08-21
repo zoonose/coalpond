@@ -1,15 +1,17 @@
 PLEASE BE SAFE AND ONLY USE BURNER WALLET, ASK FOR SUPPORT IN COAL DISCORD, DONT ANSWER DMS
 
-git clone https://github.com/failediea/coalpool.git
+COPY PASTE THE FOLLOWING:
 
-cd coalpool
+*1* git clone https://github.com/failediea/coalpool.git
 
-OPEN MAIN.RS change path location of your id.json
+*2* cd coalpool
 
-cargo build --release
+OPEN MAIN.RS change path location of your id.json  *LINE 31  default_value = "~/.config/solana/id.json",  change parameter inside ""
+
+*3* cargo build --release
 
 Next step costs .001 SOLANA
 
-./target/release/coal-hq-client signup
+*4* ./target/release/coal-hq-client signup
 
-./target/release/coal-hq-client mine --cores 15
+*5* ./target/release/coal-hq-client mine --cores 15
