@@ -13,14 +13,14 @@ mod rewards;
 
 // --------------------------------
 
-/// A command line interface tool for pooling power to submit hashes for proportional ORE rewards
+/// A command line interface tool for pooling power to submit hashes for proportional COAL rewards
 #[derive(Parser, Debug)]
 #[command(version, author, about, long_about = None)]
 struct Args {
     #[arg(long,
         value_name = "SERVER_URL",
         help = "URL of the server to connect to",
-        default_value = "ec1ipse.me",
+        default_value = "coalpool.com",
     )]
     url: String,
 
@@ -56,7 +56,7 @@ enum Commands {
     Claim(ClaimArgs),
     #[command(about = "Display claimable rewards.")]
     Rewards,
-    #[command(about = "Display current ore token balance.")]
+    #[command(about = "Display current coal token balance.")]
     Balance,
 }
 
