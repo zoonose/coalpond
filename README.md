@@ -6,7 +6,8 @@ COPY PASTE THE FOLLOWING:
 
 *Step2* cd coalpool
 
-OPEN MAIN.RS change path location of your id.json  *LINE 31  default_value = "~/.config/solana/id.json",  change parameter inside ""
+OPEN MAIN.RS change path location of your id.json  *LINE 31  default_value = "~/.config/solana/id.json",  change parameter inside "" you have to put the full path with no squiggly line like this --->
+"/home/username/restofpath/id.json"  You can get username by typing whoami
 
 *Step3* cargo build --release
 
