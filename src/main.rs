@@ -20,7 +20,7 @@ struct Args {
     #[arg(long,
         value_name = "SERVER_URL",
         help = "URL of the server to connect to",
-        default_value = "coalpool.com",
+        default_value = "coalpool.xyz",
     )]
     url: String,
 
