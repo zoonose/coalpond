@@ -1,7 +1,8 @@
 use claim::ClaimArgs;
 use solana_sdk::signature::read_keypair_file;
 use clap::{Parser, Subcommand};
-
+use dirs::home_dir;
+use std::path::PathBuf;
 use signup::signup;
 
 mod signup;
@@ -11,9 +12,6 @@ mod claim;
 mod balance;
 mod rewards;
 
-// --------------------------------
-
-/// A command line interface tool for pooling power to submit hashes for proportional COAL rewards
 #[derive(Parser, Debug)]
 #[command(version, author, about, long_about = None)]
 struct Args {
@@ -28,7 +26,7 @@ struct Args {
         long,
         value_name = "KEYPAIR_PATH",
         help = "Filepath to keypair to use",
-        default_value = "/home/USERNAME/.config/solana/id.json",
+        default_value_t = default_keypair_path(),
     )]
     keypair: String,
 
@@ -42,6 +40,17 @@ struct Args {
 
     #[command(subcommand)]
     command: Commands
+}
+
+fn default_keypair_path() -> String {
+    home_dir()
+        .unwrap_or_else(|| PathBuf::from("."))
+        .join(".config")
+        .join("solana")
+        .join("id.json")
+        .to_str()
+        .unwrap()
+        .to_string()
 }
 
 #[derive(Debug, Subcommand)]
@@ -59,9 +68,6 @@ enum Commands {
     #[command(about = "Display current coal token balance.")]
     Balance,
 }
-
-// --------------------------------
-
 
 #[tokio::main]
 async fn main() {
@@ -90,7 +96,4 @@ async fn main() {
             balance::balance(key, base_url, unsecure_conn).await;
         }
     }
-
-
 }
-
