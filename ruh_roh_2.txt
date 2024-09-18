@@ -1,0 +1,155 @@
+# #########:~/coalpond$ cx mine
+# hello, my name is cax.sh
+# CoalPooLaunch! 0.0.000.0
+# for coal-qq-client 1.3.1
+# Server : coalpool.xyz
+# Keypair: ec1ipse.json
+# Address: ############################################
+# Cores  : 12
+Server Timestamp: 1726629211
+Connecting to server...
+Connected to network!
+Got Ping: [1, 2, 3]
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+Got Ping: [1, 2, 3]
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+Received cutoff time from server: 0 seconds
+Received start mining message!
+Mining starting...
+Nonce range: 72000000 - 76000000
+Cutoff time: 52 seconds
+
+>>> Server Message:
+Sending mine transaction...
+
+Got Ping: [1, 2, 3]
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+Got Ping: [1, 2, 3]
+
+>>> Server Message:
+Sending mine transaction...
+
+Cutoff time reached: 52 seconds
+Cutoff time reached: 52 seconds
+Cutoff time reached: 52 seconds
+Cutoff time reached: 52 seconds
+Cutoff time reached: 52 seconds
+Cutoff time reached: 52 seconds
+Cutoff time reached: 52 seconds
+Cutoff time reached: 52 seconds
+Cutoff time reached: 52 seconds
+Cutoff time reached: 52 seconds
+Cutoff time reached: 52 seconds
+Cutoff time reached: 52 seconds
+Found best diff: 16
+Processed: 40805
+Hash time: 54.670237226s
+Hashpower: 755 H/s
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+Got Ping: [1, 2, 3]
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+Got Ping: [1, 2, 3]
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+Received cutoff time from server: 0 seconds
+Received start mining message!
+Mining starting...
+Nonce range: 32000000 - 36000000
+Cutoff time: 52 seconds
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+Got Ping: [1, 2, 3]
+
+>>> Server Message:
+Sending mine transaction...
+
+
+>>> Server Message:
+Sending mine transaction...
+
+# ^C
+# #########:~/coalpond$ date
+# Wed Sep 18 15:17:18 NZST 2024
