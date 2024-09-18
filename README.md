@@ -1,5 +1,5 @@
-git clone https://github.com/zoonose/coalpool.git
+git clone https://github.com/zoonose/coalpond.git
 
-cd coalpool
+cd coalpond
 
 cargo build --release
