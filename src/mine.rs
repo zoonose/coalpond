@@ -309,7 +309,7 @@ fn process_message(msg: Message, message_channel: UnboundedSender<ServerMessage>
                         println!("Received cutoff time from server: {} seconds", cutoff);
 
                         // Hard-code the cutoff time to 52 seconds (probably equivalent to --buffer-time 8) if needed
-                        let cutoff = 52u64;
+                        // let cutoff = 52u64;
 
                         let mut nonce_start_bytes = [0u8; 8];
                         for i in 0..8 {
