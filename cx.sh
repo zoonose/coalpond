@@ -90,7 +90,7 @@ fi
 #
 #   add the following to .bash_aliases (or .bashrc) (without the #) for ultimate convenience
 #
- #   alias cx="bash ~/cx.sh $@"
+ #   alias cx="bash ~/cx.sh"
 #
 #   or whatever you save it as, as it ends with .sh
 #   and also doesn't have any spaces because I have
